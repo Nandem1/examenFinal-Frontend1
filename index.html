@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/e47cce1f71.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -17,13 +18,16 @@
                 <img src="assets/img/logo.svg">
             </div>
             <div class="flex-item-nav">
-                <div class="nav-center-box">
+                <div class="nav-center-box desktop">
                     <span>Sports</span><span>Products</span><span>About
                         Us</span><span>Training</span><span>Community</span>
                 </div>
             </div>
             <div class="flex-item-nav">
-                <button><a href="#">Contact</a></button>
+                <button class="button-navbar desktop"><a href="#">Contact</a></button>
+            </div>
+            <div class="flex-item-nav mobile">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </div>
     </header>
@@ -40,7 +44,7 @@
                     <h1>LIVE: Follow the Telcel Huawei Mexico Open 2022 for free </h1>
                     <p>The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the
                         action!</p>
-                    <button><a href="#">Contact</a></button>
+                    <button class="button-navbar"><a href="#">Contact</a></button>
                 </div>
             </div>
         </div>
@@ -115,25 +119,31 @@
                 <h2>Best of the month</h2>
             </div>
             <div class="flex-container-bm">
-                <div class="flex-item-bm">
+                <div class="flex-item-bm desktop">
                     <div class="flex-item-bm-content">
                         <img src="assets/img/avatar-sanyo.png">
                         <h3>Sanyo</h3>
-                        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa
+                            ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus mus. </p>
                     </div>
                 </div>
                 <div class="flex-item-bm">
                     <div class="flex-item-bm-content">
                         <img src="assets/img/avatar.lebron.png">
                         <h3>Lebron</h3>
-                        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa
+                            ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus mus. </p>
                     </div>
                 </div>
-                <div class="flex-item-bm">
+                <div class="flex-item-bm desktop">
                     <div class="flex-item-bm-content">
                         <img src="assets/img/avatar-navarro.png">
                         <h3>Navarro</h3>
-                        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa
+                            ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus mus. </p>
                     </div>
                 </div>
             </div>
@@ -152,8 +162,90 @@
             </div>
         </div>
     </main>
-    <footer>
-
+    <!-- footer section -->
+    <!-- Desktop -->
+    <footer class="footer-big-container">
+        <div class="logo-socials desktop">
+            <div class="footer-logo">
+                <img src="assets/img/logo-white.png">
+            </div>
+            <div class="footer-socials">
+                <ul>
+                    <li><img src="assets/img/icon-facebook.svg"></li>
+                    <li><img src="assets/img/icon-youtube.svg"></li>
+                    <li><img src="assets/img/icon-twitter.svg"></li>
+                    <li><img src="assets/img/icon-pinterest.svg"></li>
+                    <li><img src="assets/img/icon-instagram.svg"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-nav1 desktop">
+            <ul>
+                <li>Home</li>
+                <li>Pricing</li>
+                <li>Products</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <div class="footer-nav2 desktop">
+            <ul>
+                <li>Training</li>
+                <li>Community</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="footer-form-copyright desktop">
+            <div class="form-box">
+                <form action="">
+                    <input type="text" placeholder="Update in your inbox...">
+                    <button>Go</button>
+                </form>
+            </div>
+            <div class="copy-box">
+                <p>Copyright 2020. All Rights Reserved</p>
+            </div>
+        </div>
+        <!-- Mobile -->
+        <div class="footer-big-mobile mobile">
+            <div class="form-box">
+                <form action="">
+                    <input type="text" placeholder="Update in your inbox...">
+                    <button>Go</button>
+                </form>
+            </div>
+            <div class="footer-nav-mobile">
+                <div class="nav-item1">
+                    <ul>
+                        <li>Home</li>
+                        <li>Pricing</li>
+                        <li>Products</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+                <div class="nav-item2">
+                    <ul>
+                        <li>Training</li>
+                        <li>Community</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-socials-mobile">
+                <ul>
+                    <li><img src="assets/img/icon-facebook.svg"></li>
+                    <li><img src="assets/img/icon-youtube.svg"></li>
+                    <li><img src="assets/img/icon-twitter.svg"></li>
+                    <li><img src="assets/img/icon-pinterest.svg"></li>
+                    <li><img src="assets/img/icon-instagram.svg"></li>
+                </ul>
+            </div>
+            <div class="footer-logo">
+                <img src="assets/img/logo-white.png">
+            </div>
+            <div class="copy-box">
+                <p>Copyright 2020. All Rights Reserved</p>
+            </div>
+        </div>
     </footer>
 </body>
 

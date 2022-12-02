@@ -27,6 +27,13 @@ body {
     margin: 20px;
 }
 
+.nav-center-box span:hover {
+    color: #a666d7;
+    transition: 0.2s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .mobile {
     display: none;
 }
@@ -300,10 +307,56 @@ h1 {
     color: white;
 }
 
+.button-navbar:hover {
+    background-color: #8B48BFB2;
+    transition: 0.2s;
+}
+
+.bm-button-final:hover {
+    background-color: #8B48BFB2;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.bm-button-final button {
+    cursor: pointer;
+}
+
+.get-button-final:hover {
+    background-color: #232C50;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.footer-socials ul li img:hover {
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 1px white);
+    transition: 0.2s;
+}
+
+.footer-nav1 ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.footer-nav2 ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form-box form button:hover {
+    background-color: #8B48BFB2;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
 /* Mobile */
 
 @media (max-width: 481px) {
-    
+
     .desktop {
         display: none;
     }
@@ -396,9 +449,21 @@ h1 {
         padding-bottom: 5px;
     }
 
+    .nav-item1 ul li:hover {
+        text-decoration: underline;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
     .nav-item2 ul li {
         list-style: none;
         padding-bottom: 5px;
+    }
+
+    .nav-item2 ul li:hover {
+        text-decoration: underline;
+        transition: 0.2s;
+        cursor: pointer;
     }
 
     .form-box {
@@ -420,6 +485,12 @@ h1 {
         list-style: none;
     }
 
+    .footer-socials-mobile ul li img:hover {
+        cursor: pointer;
+        filter: drop-shadow(1px 1px 1px white);
+        transition: 0.2s;
+    }
+
     .footer-logo {
         display: flex;
         justify-content: center;
@@ -434,5 +505,12 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .get-button-final:hover {
+        background-color: white;
+        color: black;
+        transition: 0.2s;
+        cursor: pointer;
     }
 }
